@@ -22,9 +22,13 @@
 - **Principais processos mapeados:** Controle de estoque e vendas
 - 
 - **Fluxogramas:**
-- <img width="576" height="863" alt="fluxograma_vendas" src="https://github.com/user-attachments/assets/ddfbc173-3074-41fb-95a7-95f4ebeac65b" /> (fluxograma vendas)
+- 
+- <img width="576" height="863" alt="fluxograma_vendas" src="https://github.com/user-attachments/assets/ddfbc173-3074-41fb-95a7-95f4ebeac65b" />
+
+(fluxograma vendas)
 - 
 - <img width="549" height="906" alt="fluxograma_estoque" src="https://github.com/user-attachments/assets/aca10669-699b-452d-882e-61cd97d9eb59" />
+
 (fluxograma estoque)
 
 
