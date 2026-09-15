@@ -35,22 +35,34 @@
 ---
 
 ## 3. Requisitos do Sistema
-*(esta seção e a Seção 4 "Regras de Negócio" DIVIDEM 7,5% na dimensão conceitual — juntas valem 7,5%, não 7,5% cada — + 4% exclusivos desta seção na organização/documentação)*
+
 
 ### 3.1 Requisitos Funcionais
-*O que o sistema precisa FAZER (ex.: "o sistema deve permitir registrar uma venda").*
+- O sistema deve permitir cadastrar produtos
+- O sistema deve atualizar automaticamente a quantidade em estoque após cada venda
+- O sistema deve permitir consultar a quantidade disponível de um produto
+- O sistema deve permitir cadastrar fornecedores
+- O sistema deve permitir associar produtos aos fornecedores que os fornecem
+- O sistema deve permitir registrar pedidos de compra feitos a um forncedor
+- O sistema deve permitir registrar uma venda com um ou mais produtos
+- O sistema deve calcular automaticamente o valor total da venda
+- O sistema deve permitr cancelar uma venda e devolver os teins ao estoque
 
 ### 3.2 Requisitos Não Funcionais
-*Características de qualidade (ex.: desempenho, segurança, usabilidade, disponibilidade).*
 
+- Desempenho: o sistema deve suportar multiplos caixas operando ao mesmo tempo sem lentidão
+- Disponibilidade: o sistema deve estar dispoínvel durante todo o horário de funcionamento da loja, em caso de queda de internet, o sistema deve continuar permitindo as vendas, sincronizando tudo quando volta.
+- Segurança: o sistema deve exigir login e senha (apenas pessoal autorizado).
+- Usabilidade: a interface do caixa deve ser simples o suficiente para o que funcionários com pouco treinamento técnico.
 ---
 
 ## 4. Regras de Negócio
-*(esta seção DIVIDE com a Seção 3 "Requisitos do Sistema" os mesmos 7,5% da dimensão conceitual — juntas valem 7,5%, não 7,5% cada — + 4% exclusivos desta seção na documentação. "Regras de negócio" é o termo técnico usado em modelagem de dados para as regras de funcionamento de qualquer organização, com ou sem fins lucrativos)*
 
-- **Regras operacionais:** *condições que a organização impõe (ex.: "um pedido só pode ser fechado se houver estoque disponível", "uma doação só pode ser registrada com identificação do doador", "um ritual só pode ser agendado se o espaço estiver disponível").*
-- **Restrições organizacionais:** *limitações que afetam o modelo (ex.: políticas internas, prazos, exigências legais, normas religiosas ou estatutárias) — e por que elas importam.*
-
+- **Regras operacionais:** - Um produto não pode ser vendido após a data de validade.
+- Estoque: a reposição de estoque só pode ser registrada mediante a nota fiscal do fornecedor
+- Fornecedor: Um pedido de compra só deve ser realizado para um fornecedor cadastrado, Um fornecedor só pode ser cadastrado com CNPJ válido e dados completos.
+- Vendas: uma venda cancelada deve devolver automaticamente os itens ao estoque.
+- **Restrições organizacionais:** Exigência legal: Obrigadatoriedade da emissão de notas fiscais das vendas por exigência tributária, produtos perecíveis devem ter a data  de validade em dia por exigência da vigilância sanitária.
 ---
 
 ## 5. Dicionário de Dados Conceitual (Preliminar)
