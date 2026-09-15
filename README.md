@@ -60,7 +60,8 @@
 
 ## 4. Regras de Negócio
 
-- **Regras operacionais:** - Um produto não pode ser vendido após a data de validade.
+- **Regras operacionais:**
+- Um produto não pode ser vendido após a data de validade.
 - Estoque: a reposição de estoque só pode ser registrada mediante a nota fiscal do fornecedor
 - Fornecedor: Um pedido de compra só deve ser realizado para um fornecedor cadastrado, Um fornecedor só pode ser cadastrado com CNPJ válido e dados completos.
 - Vendas: uma venda cancelada deve devolver automaticamente os itens ao estoque.
@@ -108,7 +109,7 @@ Para cada entidade identificada, liste:
 ## 8. Justificativa Técnica
 
 
-Usamos essas entidades e atributos porque foram os dados que nos apresentaram durante a visita/entrevista, usufruímos dessas informações também pois acreditamos que é o que faz mais sentido dentro de um ecossistema de supermercado, por exemplo: o mercado não possui cadastro de clientes, porém decidimos colocar a entidade "cliente" por partirmos da premissa de "fazer sentido". Apontamos esses relacionamentos e cardinalidades de acordo com o nível de entendimento sobre o conteúdo disponível em slides acadêmicos.
+Usamos essas entidades e atributos porque foram os dados que nos apresentaram durante a visita/entrevista, usufruímos dessas informações também pois acreditamos que é o que faz mais sentido dentro de um ecossistema de supermercado, por exemplo: o mercado não possui cadastro de clientes, porém decidimos colocar a entidade "cliente" por partirmos da premissa de "fazer sentido" por ser a entidade que efetua a compra de um produto. Apontamos esses relacionamentos e cardinalidades de acordo com o nível de entendimento sobre o conteúdo disponível em slides acadêmicos.
 
 ---
 
@@ -122,11 +123,7 @@ Se o grupo usou alguma ferramenta de IA (ChatGPT, Claude, Gemini, Perplexity etc
 | **Ferramenta e etapa** |  Claude: Usado para auxiliar no aprendizado do github, porque ninguém do grupo era familiarizado com essa ferramenta. Gemini: Usado na criação do DER.  |
 | **Motivação** | Claude: porque de acordo com as nossas pesquisas, concluímos que seria a melhor opção dentre as outras IA's, por ser mais técnico. Gemini: foi apenas uma escolha por preferência. |
 | **Prompt(s) utilizados** |  Claude: sucessivas perguntas de como funciona o github. Por exemplo: "como adicionar um colaborador ao github", "como salvar as alterações feitas dentro do arquivo Readme". |
-| **Resposta recebida** | Sobre adicionar uma pessoa como colaborador no readme: Vá até o repositório no GitHub onde você quer adicionar o colaborador. Clique na aba Settings no menu superior — você precisa ser dono do repositório ou ter permissão de administrador para ver essa opção. No menu lateral esquerdo, clique em Collaborators and teams (ou apenas Collaborators).
-
-Clique no botão Add people (pode pedir para confirmar sua senha). Digite o nome de usuário do GitHub, nome completo ou e-mail da pessoa que você quer convidar, e escolha o nível de permissão dela: Read, Triage, Write, Maintain ou Admin.
-
-Por fim, clique em Add [nome] to this repository. A pessoa vai receber um convite por e-mail ou notificação no GitHub, que ela precisa aceitar para ter acesso. |
+| **Resposta recebida** | Resposta do Claude: Vá até o repositório no GitHub onde você quer adicionar o colaborador. Clique na aba Settings no menu superior — você precisa ser dono do repositório ou ter permissão de administrador para ver essa opção. No menu lateral esquerdo, clique em Collaborators and teams (ou apenas Collaborators). Clique no botão Add people (pode pedir para confirmar sua senha). Digite o nome de usuário do GitHub, nome completo ou e-mail da pessoa que você quer convidar, e escolha o nível de permissão dela: Read, Triage, Write, Maintain ou Admin. Por fim, clique em Add [nome] to this repository. A pessoa vai receber um convite por e-mail ou notificação no GitHub, que ela precisa aceitar para ter acesso.  |
 | **Fontes consultadas e verificadas** |  |
 | **Trechos rejeitados ou corrigidos** |  |
 | **Justificativa da escolha final** | Decidimos manter as IA's escolhidas por atingir um nível bom de satisfação e coerência nas respostas geradas por elas. |
