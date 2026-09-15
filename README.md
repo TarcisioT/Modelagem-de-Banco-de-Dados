@@ -23,13 +23,15 @@
   
 - **Fluxogramas:**
   - (fluxograma vendas)
-  <img width="576" height="863" alt="fluxograma_vendas" src="https://github.com/user-attachments/assets/ddfbc173-3074-41fb-95a7-95f4ebeac65b" />
+  <img width="565" height="857" alt="fluxograma venda" src="https://github.com/user-attachments/assets/df8b9e98-4f99-426c-a255-53805583e70a" />
+
 
 
 
 
   - (fluxograma estoque)
-  <img width="549" height="906" alt="fluxograma_estoque" src="https://github.com/user-attachments/assets/aca10669-699b-452d-882e-61cd97d9eb59" />
+  <img width="454" height="885" alt="fluxograma estoque" src="https://github.com/user-attachments/assets/ae68a1f7-b61f-4a3c-a188-dd305fa9f004" />
+
 
 
 ---
@@ -81,7 +83,7 @@ Para cada entidade identificada, liste:
 ---
 
 ## 6. Modelagem Conceitual (Entidades, Atributos, Relacionamentos)
-*(vale 7,5% na dimensão conceitual)*
+
 
 - **Entidades reconhecidas:** *liste e justifique brevemente cada uma.*
 - **Atributos e classificações:** *quais atributos pertencem a cada entidade.*
@@ -91,7 +93,7 @@ Para cada entidade identificada, liste:
 ---
 
 ## 7. Diagrama Entidade-Relacionamento (DER)
-*(vale 20% — é o item de maior peso da entrega)*
+
 
 - Anexe o DER (em imagem).
 - O diagrama deve representar corretamente:
@@ -104,29 +106,33 @@ Para cada entidade identificada, liste:
 ---
 
 ## 8. Justificativa Técnica
-*(vale 7,5% — sozinho, é o subcritério de maior peso dentro da Dimensão Conceitual)*
 
-*Explique e defenda as decisões de abstração e modelagem tomadas: por que essas entidades, esses atributos, esses relacionamentos e essas cardinalidades — e não outras alternativas possíveis?*
+
+Usamos essas entidades e atributos porque foram os dados que nos apresentaram durante a visita/entrevista, usufruímos dessas informações também pois acreditamos que é o que faz mais sentido dentro de um ecossistema de supermercado, por exemplo: o mercado não possui cadastro de clientes, porém decidimos colocar a entidade "cliente" por partirmos da premissa de "fazer sentido". Apontamos esses relacionamentos e cardinalidades de acordo com o nível de entendimento sobre o conteúdo disponível em slides acadêmicos.
 
 ---
 
 ## 9. Uso de Inteligência Artificial
-*(documentação obrigatória — não é opcional se o grupo usou IA em qualquer etapa: pesquisa, escrita, organização de ideias ou revisão de texto)*
+
 
 Se o grupo usou alguma ferramenta de IA (ChatGPT, Claude, Gemini, Perplexity etc.) em qualquer parte do trabalho, registre **para cada uso relevante**:
 
 | Item | O que registrar |
 |------|------------------|
-| **Ferramenta e etapa** | Qual IA foi usada e em qual parte do trabalho (ex.: pesquisa sobre o setor da organização, redação do README, organização dos requisitos, revisão ortográfica/gramatical). |
-| **Motivação** | Por que o grupo recorreu à IA nesse ponto específico. |
-| **Prompt(s) utilizados** | Texto exato (ou muito próximo) do que foi perguntado/pedido à IA. |
-| **Resposta recebida** | Resumo ou trecho relevante da resposta da IA. |
-| **Fontes consultadas e verificadas** | Se a IA citou fontes/dados, quais foram checadas pelo grupo e como (ex.: comparação com o que foi observado na visita de campo). |
-| **Trechos rejeitados ou corrigidos** | O que da resposta da IA foi descartado, editado ou corrigido manualmente, e por quê. |
-| **Justificativa da escolha final** | Por que o grupo manteve, adaptou ou rejeitou o que a IA sugeriu. |
-| **Reflexão crítica** | Limites, vieses ou erros identificados no uso da IA nessa etapa (ex.: informação desatualizada, alucinação, generalização incorreta sobre o tipo de organização). |
+| **Ferramenta e etapa** |  Claude: Usado para auxiliar no aprendizado do github, porque ninguém do grupo era familiarizado com essa ferramenta. Gemini: Usado na criação do DER.  |
+| **Motivação** | Claude: porque de acordo com as nossas pesquisas, concluímos que seria a melhor opção dentre as outras IA's, por ser mais técnico. Gemini: foi apenas uma escolha por preferência. |
+| **Prompt(s) utilizados** |  Claude: sucessivas perguntas de como funciona o github. Por exemplo: "como adicionar um colaborador ao github", "como salvar as alterações feitas dentro do arquivo Readme". |
+| **Resposta recebida** | Sobre adicionar uma pessoa como colaborador no readme: Vá até o repositório no GitHub onde você quer adicionar o colaborador. Clique na aba Settings no menu superior — você precisa ser dono do repositório ou ter permissão de administrador para ver essa opção. No menu lateral esquerdo, clique em Collaborators and teams (ou apenas Collaborators).
 
-*Se o grupo não usou nenhuma ferramenta de IA, declare isso explicitamente nesta seção.*
+Clique no botão Add people (pode pedir para confirmar sua senha). Digite o nome de usuário do GitHub, nome completo ou e-mail da pessoa que você quer convidar, e escolha o nível de permissão dela: Read, Triage, Write, Maintain ou Admin.
+
+Por fim, clique em Add [nome] to this repository. A pessoa vai receber um convite por e-mail ou notificação no GitHub, que ela precisa aceitar para ter acesso. |
+| **Fontes consultadas e verificadas** |  |
+| **Trechos rejeitados ou corrigidos** |  |
+| **Justificativa da escolha final** | Decidimos manter as IA's escolhidas por atingir um nível bom de satisfação e coerência nas respostas geradas por elas. |
+| **Reflexão crítica** |  |
+
+
 
 ---
 
