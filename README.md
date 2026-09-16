@@ -114,7 +114,8 @@ Para cada entidade identificada, liste:
 ---
 
 ## 7. Diagrama Entidade-Relacionamento (DER)
-[modelo_conceitual_bd.pdf](https://github.com/user-attachments/files/32311953/modelo_conceitual_bd.pdf)
+<img width="808" height="757" alt="Captura de tela 2026-09-16 201619" src="https://github.com/user-attachments/assets/6aef4a8c-9599-4efa-ba6e-5c5e4502a59e" />
+
 
 
 - Anexe o DER (em imagem).
