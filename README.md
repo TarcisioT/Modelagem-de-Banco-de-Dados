@@ -86,8 +86,20 @@ Para cada entidade identificada, liste:
 ## 6. Modelagem Conceitual (Entidades, Atributos, Relacionamentos)
 
 
-- **Entidades reconhecidas:** *liste e justifique brevemente cada uma.*
-- **Atributos e classificações:** *quais atributos pertencem a cada entidade.*
+- **Entidades reconhecidas:**
+- Produto: Representa os produtos comercializados pelo mercado, sendo necessário para controlar informações como nome, tipo, categoria e preço.
+- Categoria_Produto: Permite classificar os produtos em categorias, facilitando sua organização e identificação
+- Item_Venda: Representa cada produto incluído em uma venda, permitindo registrar quantidade e valor unitário vendido
+- Item_Compra: Representa cada produto incluído em um pedido de compra, permitindo registrar quantidade e valor de cada item.
+- Pedido_Compra: Representa os pedidos de produtos feitos aos fornecedores, permitindo controlar as compras realizadas pelo mercado.
+- Fornecedor: Representa as empresas que fornecem produtos ao mercado, permitindo registrar e relacionar os fornecedores às compras realizadas.
+- Estoque: Representa o controle dos produtos armazenados, permitindo registrar quantidade e informações relacionadas ao armazenamento.
+- Funcionário: Representa os funcionários responsáveis pelas atividades relacionadas às vendas e ao funcionamento do mercado.
+- Venda: Representa as vendas realizadas pelo mercado, permitindo registrar informações da transação e relacioná-la ao cliente e aos produtos vendidos.
+- Cliente: Representa as pessoas que realizam compras no mercado, permitindo armazenar seus dados e relacioná-los às vendas realizadas.
+- **Atributos e classificações:**
+- 
+- 
 - **Relacionamentos pertinentes:** *como as entidades se conectam.*
 - **Restrições e políticas organizacionais aplicadas ao modelo.**
 
