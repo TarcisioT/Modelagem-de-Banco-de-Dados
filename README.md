@@ -118,14 +118,6 @@ Para cada entidade identificada, liste:
 
 
 
-- Anexe o DER (em imagem).
-- O diagrama deve representar corretamente:
-  - Entidades
-  - Atributos
-  - Relacionamentos
-  - **Cardinalidades**
-- O modelo deve ser **consistente** e já demonstrar potencial de **escalabilidade e integração** (pensando nas próximas etapas do projeto).
-
 ---
 
 ## 8. Justificativa Técnica
