@@ -5,7 +5,6 @@
 ---
 
 ## 1. Caracterização da Organização
-*(vale 7,5% — Dimensão Conceitual)*
 
 - **Nome e natureza da organização:** Hortifruti União - Tatuapé, empresa privada, com fins lucrativos do ramo de comércio varejista alimentício.
 - **Contexto e porte:** empresa com fins lucrativos de médio porte, 110 funcionários, com um faturamento de 5 milhões/mês (aproximadamente).
@@ -25,7 +24,7 @@
 ---
 
 ## 2. Processos de Negócio
-*(vale 10% — Dimensão Procedimental)*
+
 
 - **Principais processos mapeados:** Controle de estoque e vendas
   
@@ -77,7 +76,7 @@
 ---
 
 ## 5. Dicionário de Dados Conceitual (Preliminar)
-*(vale 10% — Dimensão Procedimental)*
+
 
 Para cada entidade identificada, liste:
 
