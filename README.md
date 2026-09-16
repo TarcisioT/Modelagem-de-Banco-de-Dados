@@ -10,7 +10,7 @@
 - **Nome e natureza da organização:** Hortifruti União - Tatuapé, empresa privada, com fins lucrativos do ramo de comércio varejista alimentício.
 - **Contexto e porte:** empresa com fins lucrativos de médio porte, 110 funcionários, com um faturamento de 5 milhões/mês (aproximadamente).
 - **Problemas e necessidades identificados:** o levantamento feito no Hortifruti União, notamos um problema com o controle de validade dos produtos. Como o mercado trabalha com muita quantidade e variedade de mercadorias, acompanhar as datas de vencimento acaba sendo complicado. Por isso, itens perto de vencer ou já vencidos podem ficar nas prateleiras mais tempo do que deveriam, o que gera perdas e exige mais atenção dos funcionários na hora de conferir. Com base nisso, vimos a necessidade de um sistema para registrar e acompanhar as datas de validade dos produtos. Assim, dá para consultar quais estão perto de vencer, o que ajuda a retirar ou dar prioridade a esses itens e contribui para reduzir as perdas.*
-- **Justificativa da escolha:** escolhemos essa organização porque um de nós tinha contato mais próximo com um dos donos e porque acreditamos que essa empresa nos fornece um bom material pra trabalharmos em cima de acordo com a matéria Modelagem de Banco de Dados.
+- **Justificativa da escolha:** escolhemos essa organização porque um dos integrantes do grupo tem contato com um dos responsáveis pelo estabelecimento, o que abriu caminho para acessar o local e fazer a pesquisa de campo. O Hortifruti União também tem processos que interessam à disciplina de Modelagem de Banco de Dados, como controle de estoque, acompanhamento da validade dos produtos, compras de fornecedores e registro de vendas. Esses processos oferecem dados e regras de negócio suficientes para montar um modelo conceitual consistente.
 - **Evidências da organização:**  https://www.google.com/maps/@-23.5357427,-46.5791203,747a,86.7y,87.54h,101.01t/data=!3m7!1e1!3m5!1swJUlDJQ1_PRKkzMQx4lZhg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-11.012688400441263%26panoid%3DwJUlDJQ1_PRKkzMQx4lZhg%26yaw%3D87.54143764466257!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwNi4wIKXMDSoASAFQAw%3D%3D (Google Maps)
 - Endereço: Rua Filipe Camarão, 67 Tatuapé, São Paulo.
 - Número de contato: (11)99317-0906
@@ -97,6 +97,7 @@ Para cada entidade identificada, liste:
 - Funcionário: Representa os funcionários responsáveis pelas atividades relacionadas às vendas e ao funcionamento do mercado.
 - Venda: Representa as vendas realizadas pelo mercado, permitindo registrar informações da transação e relacioná-la ao cliente e aos produtos vendidos.
 - Cliente: Representa as pessoas que realizam compras no mercado, permitindo armazenar seus dados e relacioná-los às vendas realizadas.
+- Lote: Representa cada lote recebido de um produto, permitindo controlar separadamente sua quantidade, data de entrada e data de validade.
 - **Atributos e classificações:**
 - 
 - 
