@@ -50,7 +50,7 @@
 - O sistema deve permitir cadastrar produtos
 - O sistema deve atualizar automaticamente a quantidade em estoque após cada venda
 - O sistema deve permitir consultar a quantidade disponível de um produto
-- O sistema deve permitir cadastrar fornecedores
+- O sistema deve permitir cadastrar fornecedores por CNPJ
 - O sistema deve permitir associar produtos aos fornecedores que os fornecem
 - O sistema deve permitir registrar pedidos de compra feitos a um forncedor
 - O sistema deve permitir registrar uma venda com um ou mais produtos
