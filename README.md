@@ -54,22 +54,22 @@
 
 
 ### 3.1 Requisitos Funcionais
-- O sistema deve permitir cadastrar produtos
-- O sistema deve atualizar automaticamente a quantidade em estoque após cada venda
+- O sistema deve permitir cadastrar produtos contendo código, nome, data de validade, categoria e descrição
+- O sistema deve atualizar automaticamente a quantidade em estoque após cada venda efetuada no caixa
 - O sistema deve permitir consultar a quantidade disponível de um produto
-- O sistema deve permitir cadastrar fornecedores por CNPJ
+- O sistema deve permitir cadastrar fornecedores apenas por CNPJ válido e todos os outros dados obrigatórios
 - O sistema deve permitir associar produtos aos fornecedores que os fornecem
 - O sistema deve permitir registrar pedidos de compra feitos a um forncedor
 - O sistema deve permitir registrar uma venda com um ou mais produtos
 - O sistema deve calcular automaticamente o valor total da venda
-- O sistema deve permitr cancelar uma venda e devolver os teins ao estoque
+- O sistema deve permitr cancelar uma venda e devolver os itens ao estoque
 
 ### 3.2 Requisitos Não Funcionais
 
-- Desempenho: o sistema deve suportar multiplos caixas operando ao mesmo tempo sem lentidão
+- Desempenho: o sistema deve suportar multiplos caixas operando simultaneamente, mantendo o tempo de respostas de consultas e registro de vendas inferior a 3 segundos em situações normais de venda.
 - Disponibilidade: o sistema deve estar dispoínvel durante todo o horário de funcionamento da loja, em caso de queda de internet, o sistema deve continuar permitindo as vendas, sincronizando tudo quando volta.
-- Segurança: o sistema deve exigir login e senha (apenas pessoal autorizado).
-- Usabilidade: a interface do caixa deve ser simples o suficiente para o que funcionários com pouco treinamento técnico.
+- Segurança: o sistema deve exigir login e senha para acesso as funcionalidades, permitindo que apenas usuários autorizados realizem tarefas de acordo com o nível acesso.
+- Usabilidade: a interface do sistema do caixa deve manter uma navegação simples e objetiva, permitindo que funcionários novatos aprendam a ultilizar apenas com treinamento básico sem necessidade de conhecimentos técnicos avançados
 ---
 
 ## 4. Regras de Negócio
