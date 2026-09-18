@@ -1,4 +1,11 @@
 # Entrega 1 — Modelo Conceitual (DER)
+
+### Nomes dos Integrantes:
+- Tarcisio Santos (RGM 47913061)
+- Gabriela Porfirio (RGM 48017698)
+- Nicole Xavier (RGM 48329002)
+- Henrique Moura (RGM 47610972)
+- Henrico Saltanian (RGM 46981721)
 ### Modelagem de um sistema de gestão de informações para uma organização de pequeno porte
 
 
