@@ -20,6 +20,8 @@
 - **Evidências da organização:**  https://www.google.com/maps/@-23.5357427,-46.5791203,747a,86.7y,87.54h,101.01t/data=!3m7!1e1!3m5!1swJUlDJQ1_PRKkzMQx4lZhg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-11.012688400441263%26panoid%3DwJUlDJQ1_PRKkzMQx4lZhg%26yaw%3D87.54143764466257!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwNi4wIKXMDSoASAFQAw%3D%3D (Google Maps)
 - Endereço: Rua Filipe Camarão, 67 Tatuapé, São Paulo.
 - Número de contato: (11)99317-0906
+- Nome do responsável/entrevistado: Guilherme Takemoto
+
 - Fachada do mercado: <img width="1600" height="1200" alt="fachada_mercado" src="https://github.com/user-attachments/assets/96ddf354-d13e-41de-be66-00efc5e769c5" />
 
 - Inteiror do mercado: <img width="1600" height="1200" alt="interior_mercado" src="https://github.com/user-attachments/assets/b969924b-67c7-4e15-8554-971d6f0eec40" />
