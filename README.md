@@ -59,7 +59,7 @@
 - O sistema deve permitir cadastrar produtos contendo código, nome, data de validade, categoria e descrição
 - O sistema deve atualizar automaticamente a quantidade em estoque após cada venda efetuada no caixa
 - O sistema deve permitir consultar a quantidade disponível de um produto
-- O sistema deve permitir cadastrar fornecedores apenas por CNPJ válido e todos os outros dados obrigatórios
+- O sistema deve permitir cadastrar fornecedores apenas por CNPJ
 - O sistema deve permitir associar produtos aos fornecedores que os fornecem
 - O sistema deve permitir registrar pedidos de compra feitos a um forncedor
 - O sistema deve permitir registrar uma venda com um ou mais produtos
