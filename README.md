@@ -89,8 +89,79 @@
 
 Para cada entidade identificada, liste:
 
+### Fornecedor
+
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
+| ID_Fornecedor |
+| Nome_Fornecedor |
+| CNPJ |
+| Razão Social |
+| Telefone |
+| Endereço |
+
+### Pedido_Compra
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Pedido |
+| ID_Fornecedor |
+| Data |
+| Hora |
+
+
+### Produto
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Produto |
+| Nome_Produto |
+| ID_Categoria |
+| Categoria_Produto |
+
+### Categoria_Produto
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Categoria |
+| Nome_Categoria |
+
+### Funcionario 
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Funcionario |
+| Nome_Funcionario |
+| CPF | 
+| Endereço | 
+| Função |
+| Telefone |
+| Data_Admissao |
+
+### Venda
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Venda |
+| ID_Cliente |
+| Data |
+| Hora |
+| Forma_Pagamento |
+
+### Cliente
+
+| Atributo | Descrição | Regra de negócio associada |
+|----------|-----------|------------------------------|
+| ID_Cliente |
+| Nome_Cliente |
+| CPF |
+| Telefone |
+
+
+
+
+
+
 | *nome do atributo* | *o que ele representa* | *se houver alguma regra (obrigatoriedade, valores possíveis, etc.)* |
 
 *Mantenha o dicionário organizado e padronizado (mesmo formato de tabela para todas as entidades).*
