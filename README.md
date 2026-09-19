@@ -93,69 +93,72 @@ Para cada entidade identificada, liste:
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Fornecedor |
-| Nome_Fornecedor |
-| CNPJ |
-| Razão Social |
-| Telefone |
-| Endereço |
+| ID_Fornecedor | Identificador único do fornecedor adastrado no sistema | Obrigatório, chave primária |
+| Nome_Fornecedor | Nome fantasia pelo qual o fornecedor é conhecido comercialmente |  |
+| CNPJ | Número de identificação da pessoa jurídica do fornecedor perante a Receita Federal | Obrigatório, único, deve conter 14 dígitos válidos |
+| Razão Social | Nome jurídico oficial da empresa fornecedora, conforme registrado legalmente |  |
+| Telefone | Número de contato do fornecedor |  |
+| Endereço | Localização física do fornecedor (composto por Rua, Número, Bairro, Cidade, Estado) |  |
 
 ### Pedido_Compra
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Pedido |
-| ID_Fornecedor |
-| Data |
-| Hora |
+| ID_Pedido | Identificador único do pedido compra realizado junto ao fornecedor | Chave primária, gerada automaticamente |
+| ID_Fornecedor | Referência ao fornecedor responsável por atender o pedido de compra | Chave estrangeira; deve referenciar um fornecedor cadastrado no sistema |
+| Data | Data em que o pedido de compra foi realizado |  |
+| Hora | Horário em que o pedido de compra foi realizado |  |
 
 
 ### Produto
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Produto |
-| Nome_Produto |
-| ID_Categoria |
-| Categoria_Produto |
+| ID_Produto | Identificador único interno do produto | Chave primária, gerada automáticamente |
+| Nome_Produto | Nome completo/comercial do produto |  |
+| ID_Categoria | Referência à categoria à qual o produto pertence | Chave estrangeira; deve referenciar uma categoria registrada |
+| Descricao_Gondola | Descrição resumida do produto exibida na etiqueta de prateleira |  |
+| Descricao_Reduzida | Descrição do produto utilizada na emissão de nota fiscal | Deve respeitar o limite de caracteres exigido pela legislação fiscal |
+| Codigo_Barras | Código numérico (EAN/GTIN) atribuído pelo fabricante, utilizado para leitura no caixa e identificação universal do produto | Único |
 
 ### Categoria_Produto
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Categoria |
-| Nome_Categoria |
+| ID_Categoria | Identificador único da categoria de produto cadastrada no sistema | Chave primária, gerada automaticamente |
+| Nome_Categoria | Nome que identifica a categoria à qual produtos pertencem (ex: Hortifruti, Laticínios, Bebidas) |
 
 ### Funcionario 
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Funcionario |
-| Nome_Funcionario |
-| CPF | 
-| Endereço | 
-| Função |
-| Telefone |
-| Data_Admissao |
+| ID_Funcionario | Identificador único do funcionário cadastrado no sistema | Chave primária, gerada automaticamente |
+| Nome_Funcionario | Nome completo do funcionário |  |
+| CPF | Documento de identificação civil do funcionário | Obrigatório, único, deve conter 11 dígitos válidos |
+| Endereço | Localização de residência do funcionário (composto por Número, Bairro, Cidade, Estado) |
+| Função | Cargo/atividade exercida pelo funcionário na empresa (ex: Caixa, Repositor, Gerente) |
+| Telefone | Número de contato do funcionário |  |
+| Data_Admissao | Data em que o funcionário foi contratado pela empresa |  |
 
 ### Venda
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Venda |
-| ID_Cliente |
-| Data |
-| Hora |
-| Forma_Pagamento |
+| ID_Venda | Identificador único da venda realizada |
+| ID_Funcionario | Referência ao funcionário responsável por registrar a venda | Chave estrangeira; deve referenciar um funcionário cadastrado |
+| ID_Cliente | Referência ao cliente que realizou a compra | Chave estrangeira; deve referenciar um cliente cadastrado |
+| Data | Data em que a venda foi realizada
+| Hora | Horário em que a venda foi realizada
+| Forma_Pagamento | Forma de pagamento utilizada pelo cliente na compra | Valores possíveis: Dinheiro, Cartão de Débito, Cartão de Crédito |
 
 ### Cliente
 
 | Atributo | Descrição | Regra de negócio associada |
 |----------|-----------|------------------------------|
-| ID_Cliente |
-| Nome_Cliente |
-| CPF |
-| Telefone |
+| ID_Cliente | Identificador único do cliente cadastrado no sistema | Chave primária, gerada automaticamente |
+| Nome_Cliente | Nome completo do cliente |  |
+| CPF | Documento de identificação civil do cliente | Único, deve conter 11 dígitos válidos |
+| Telefone | Número de contato do cliente |
 
 
 
